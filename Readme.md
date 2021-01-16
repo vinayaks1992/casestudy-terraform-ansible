@@ -1,8 +1,7 @@
 ## Deploying Wordpress on AWS Infrastructure with Ansible & Terraform
 
 **Create an EC2 T2.micro instance**  
-**T2.micro instance of CentOS 7 in ap-south-1 Availability zone.**  
-**Get the terminal access of CentOS 7 server, Also name it as GAT-Primary** 
+**T2.micro instance of CentOS 7 in us-east-2 Availability zone.**  
  
 ---------------------------------------------------------------------------------
 **Install pre-requisites for the setup.**
