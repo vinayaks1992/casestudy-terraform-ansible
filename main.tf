@@ -272,9 +272,9 @@ resource "aws_security_group" "RDS" {
 resource "aws_db_instance" "db" {
   allocated_storage      = 10
   engine                 = "mysql"
-  engine_version         = "5.6.41"
+  engine_version         = "5.7.37"
   instance_class         = var.db_instance_class
-  name                   = var.dbname
+  db_name                   = var.dbname
   identifier             = var.dbidentifier
   username               = var.dbuser
   password               = var.dbpassword
