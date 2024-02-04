@@ -319,8 +319,7 @@ EOD
   }
 
   provisioner "local-exec" {
-    [11:56 AM] Rishi (Guest)
-command = "aws ec2 wait instance-status-ok --instance-ids ${self.id} && ansible-playbook -i aws_hosts wordpress.yml"
+   command = "aws ec2 wait instance-status-ok --instance-ids ${self.id} && ansible-playbook -i aws_hosts wordpress.yml"
   }
 }
 
